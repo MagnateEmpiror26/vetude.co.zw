@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from paynow import Paynow
 from django.contrib.auth.models import User
 
-paynow = Paynow('11027', '0f5cdb4a-f142-4e5c-9fa9-f8948dfeb128', 'http://return.url', 'https://crowdlearn.co.zw')
+paynow = Paynow('', '', 'http://return.url', 'https://crowdlearn.co.zw')
 
 
 def index(request):
